@@ -4,10 +4,16 @@ import { Component } from '@angular/core';
 import { Header } from '../../components/header/header';
 //knowledge component
 import { Knowledge } from '../../components/knowledge/knowledge';
+//experience component
+import { Experience } from '../../components/experience/experience';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, Knowledge],
+  imports: [
+    Header,
+    Knowledge,
+    Experience
+  ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
