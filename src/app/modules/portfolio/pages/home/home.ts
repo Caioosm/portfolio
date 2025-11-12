@@ -6,14 +6,17 @@ import { Header } from '../../components/header/header';
 import { Knowledge } from '../../components/knowledge/knowledge';
 //experience component
 import { Experience } from '../../components/experience/experience';
+//experience component
+import { Projects } from "../../components/projects/projects";
 
 @Component({
   selector: 'app-home',
   imports: [
     Header,
     Knowledge,
-    Experience
-  ],
+    Experience,
+    Projects,
+],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
