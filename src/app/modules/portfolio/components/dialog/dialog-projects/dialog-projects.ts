@@ -1,10 +1,10 @@
 import { Component, Inject, OnInit, signal } from '@angular/core';
 import { IProjects } from '../../../interface/IProjects.interface';
-import { MAT_DIALOG_DATA, MatDialogContent, MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialogContent, MatDialogRef, MatDialogTitle } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-dialog-projects',
-  imports: [MatDialogContent],
+  imports: [MatDialogContent, MatDialogTitle],
   templateUrl: './dialog-projects.html',
   styleUrl: './dialog-projects.scss',
 })
